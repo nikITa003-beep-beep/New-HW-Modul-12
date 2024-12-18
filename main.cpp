@@ -18,30 +18,30 @@ int main()
 
     if (IsKPeriodic(string1, K1))
     {
-        cout << "Строка является кратной " << K1 << endl;
+        cout << "The string is periodic to the number " << K1 << endl;
     }
     else 
     {
-        cout << "Строка не является кратной " << K1 << endl;
+        cout << "The string is non-periodic to the number " << K1 << endl;
     }
 
     if(IsKPeriodic(string2, K2))
     {
-        cout << "Строка является кратной " << K2 << endl;
+        cout << "The string is periodic to the number " << K2 << endl;
     }
     else
     {
-        cout << "Строка не является кратной " << K2 << endl;
+        cout << "The string is non-periodic to the number " << K2 << endl;
     }
 
 
     if(IsKPeriodic(string3, K3))
     {
-        cout << "Строка является кратной " << K3 << endl;
+        cout << "The string is periodic to the number " << K3 << endl;
     }
     else
     {
-        cout << "Строка не является кратной " << K3 << endl;
+        cout << "The string is non-periodic to the number " << K3 << endl;
     }
 
     return 0;
